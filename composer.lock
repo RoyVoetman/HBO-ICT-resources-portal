@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3451d0fb21d0555e3150b825386bd57",
+    "content-hash": "9dfd826978227a63a88bed4417fe7bd7",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1005,16 +1005,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.53",
+            "version": "1.0.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "08e12b7628f035600634a5e76d95b5eb66cea674"
+                "reference": "0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/08e12b7628f035600634a5e76d95b5eb66cea674",
-                "reference": "08e12b7628f035600634a5e76d95b5eb66cea674",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a",
+                "reference": "0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a",
                 "shasum": ""
             },
             "require": {
@@ -1085,7 +1085,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2019-06-18T20:09:29+00:00"
+            "time": "2019-10-16T21:01:05+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1828,105 +1828,6 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
-        },
-        {
-            "name": "royvoetman/flysystem-gitlab-storage",
-            "version": "v1.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/RoyVoetman/Flysystem-Gitlab-storage.git",
-                "reference": "c1015bfc6f5274541291af7ecf377a3a657f3ffd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/RoyVoetman/Flysystem-Gitlab-storage/zipball/c1015bfc6f5274541291af7ecf377a3a657f3ffd",
-                "reference": "c1015bfc6f5274541291af7ecf377a3a657f3ffd",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "guzzlehttp/guzzle": "^6.3",
-                "league/flysystem": "^1.0",
-                "php": "^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "RoyVoetman\\FlysystemGitlab\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Roy Voetman",
-                    "role": "Developer",
-                    "email": "royvoetman@outlook.com"
-                }
-            ],
-            "description": "Flysystem Adapter for the Gitlab Repository files API v4",
-            "keywords": [
-                "Flysystem",
-                "api",
-                "flysystem-gitlab",
-                "gitlab",
-                "laravel-storage",
-                "royvoetman",
-                "v4"
-            ],
-            "time": "2019-08-03T15:54:32+00:00"
-        },
-        {
-            "name": "royvoetman/laravel-gitlab-storage",
-            "version": "v1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/RoyVoetman/Laravel-Gitlab-storage.git",
-                "reference": "3009cddac5724352b6ed5c13f04a45c4e646333c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/RoyVoetman/Laravel-Gitlab-storage/zipball/3009cddac5724352b6ed5c13f04a45c4e646333c",
-                "reference": "3009cddac5724352b6ed5c13f04a45c4e646333c",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/filesystem": "^5.1|^5.2|^5.3",
-                "illuminate/support": "^5.1|^5.2|^5.3",
-                "php": "^7.0",
-                "royvoetman/flysystem-gitlab-storage": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "RoyVoetman\\LaravelGitlabStorage\\GitlabStorageServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "RoyVoetman\\LaravelGitlabStorage\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Roy Voetman",
-                    "role": "Developer",
-                    "email": "royvoetman@outlook.com"
-                }
-            ],
-            "description": "A Gitlab Storage driver for Laravel",
-            "time": "2019-08-03T14:58:03+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
