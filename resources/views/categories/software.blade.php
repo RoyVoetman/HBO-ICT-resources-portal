@@ -2,16 +2,14 @@
 
 @section('category-container')
     <ul>
-        <li><a href="https://typora.io/">Typora</a></li>
-        <li><a href="https://brave.com/">Brave</a></li>
-        <li><a href="https://atom.io/">Atom</a></li>
-        <li><a href="https://code.visualstudio.com/">Visualstudio code</a></li>
-        <li><a href="https://www.apachefriends.org/index.html">XAMPP</a></li>
-        <li><a href="https://brave.com/">MAMP</a></li>
-        <li><a href="https://atom.io/">Mysqlworkbench</a></li>
-        <li><a href="https://code.visualstudio.com/">Datagrip</a></li>
-        <li><a href="https://typora.io/">Flux</a></li>
-        <li><a href="https://brave.com/">Trello</a></li>
-        <li><a href="https://atom.io/">Postman</a></li>
+        @foreach(config('software')['software'] as $software)
+            @if(isset($software['header']))
+                <div class="col-md-12">
+                    <h3 class="pt-3">{{ $software['header'] }}</h3>
+                </div>
+            @else
+                <li><a href="{{ $software['link'] }}">{{ $software['name'] }}</a></li>
+            @endif
+        @endforeach
     </ul>
 @endsection

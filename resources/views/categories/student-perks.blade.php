@@ -2,7 +2,7 @@
 
 @section('category-container')
     <div class="row student-perks">
-        @foreach(config('student-perks') as $studentPerk)
+        @foreach(config('student-perks')['perks'] as $studentPerk)
             @component('components.link-card', ['url' => $studentPerk['link'], 'newTab' => true])
                 {{ $studentPerk['name'] }}
                 @slot('footer')
