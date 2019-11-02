@@ -22,32 +22,6 @@ body {
         color: $white;
     }
     
-    .pro-card {
-        &::after {
-            content: '';
-            z-index: 0;
-            position: absolute;
-            width: 0;
-            height: 0;
-            right: -3px;
-            top: -3px;
-            border-left: 41px solid transparent;
-            border-right: 41px solid transparent;
-            border-bottom: 41px solid #EE7A00;
-            border-radius: 100%;
-            transform: rotate(45deg) translateX(18%) translateY(-59%);
-            -webkit-backface-visibility: hidden;
-        }
-        
-        i.pro-icon {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            z-index: 1;
-            display: block !important;
-        }
-    }
-    
     /*
     |--------------------------------------------------------------------------
     | All page sections

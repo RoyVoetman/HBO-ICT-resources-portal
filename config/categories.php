@@ -23,29 +23,6 @@ return [
         'blade' => 'categories.software',
     ],
     [
-        'name' => 'Study Support',
-        'icon' => 'fas fa-chalkboard-teacher',
-        'is_pro' => true,
-        
-        'route' => 'study-support',
-        'blade' => 'categories.study-support',
-    ],
-    [
-        'name' => 'Blog (coming soon)',
-        'icon' => 'fas fa-newspaper',
-
-        'route' => 'blog',
-        'blade' => 'categories.blog',
-    ],
-    [
-        'name' => 'Notes archive',
-        'icon' => 'fas fa-archive',
-        'is_pro' => true,
-
-        'route' => 'notes',
-        'blade' => 'categories.notes',
-    ],
-    [
         'name' => 'Video resources',
         'icon' => 'fab fa-youtube',
 

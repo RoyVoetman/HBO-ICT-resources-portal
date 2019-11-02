@@ -26,62 +26,16 @@
                         <li class="nav-item{{ (request()->is('/') ? ' active' : '') }}">
                             <a class="nav-link" href="/">Resources <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item{{ (request()->is('blog/*') ? ' active' : '') }}">
-                            <a class="nav-link" href="/blog">Blog</a>
-                        </li>
-                        <li class="nav-item{{ (request()->is('about') ? ' active' : '') }}">
-                            <a class="nav-link" href="/about">About</a>
-                        </li>
-                        @guest
-                            <li class="nav-item{{ (request()->is('login') ? ' active' : '') }}">
-                                <a class="nav-link" href="/login">Login</a>
-                            </li>
-                        @endguest
-                        @auth
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Welcome, {{ auth()->user()->name }}
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="userDropdown">
-                                    {{ Form::open(['url' => '/logout', 'method' => 'POST']) }}
-                                        <button class="dropdown-item" type="submit">Logout</button>
-                                    {{ Form::close() }}
-                                </div>
-                            </li>
-                        @endauth
+{{--                        <li class="nav-item{{ (request()->is('about') ? ' active' : '') }}">--}}
+{{--                            <a class="nav-link" href="/about">About</a>--}}
+{{--                        </li>--}}
                     </ul>
                 </div>
             </div>
         </nav>
 
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    @if (session()->has('alert'))
-                        <div class="alert alert-success" role="alert">
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            {{ session('alert') }}
-                        </div>
-                    @endif
-
-                    @if (session()->has('error'))
-                        <div class="alert alert-danger" role="alert">
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            {{ session('error') }}
-                        </div>
-                    @endif
-                </div>
-            </div>
-
             @yield('container')
         </div>
-
-        <footer>
-
-        </footer>
     </body>
 </html>

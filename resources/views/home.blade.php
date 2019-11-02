@@ -15,7 +15,7 @@
 
                 @foreach($categories as $index => $category)
                     <div class="col-md-4">
-                        <div class="card mb-3 position-relative{{ $index % 2 === 1 ? ' bg-primary' : null }}{{ isset($category['is_pro']) ? ' pro-card' : null }}">
+                        <div class="card mb-3 position-relative{{ $index % 2 === 1 ? ' bg-primary' : null }}">
                             <i class="fas fa-star d-none pro-icon"></i>
 
                             <a class="card-link" href="{{ $category['route'] }}">
