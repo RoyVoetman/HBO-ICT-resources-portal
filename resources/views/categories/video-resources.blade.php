@@ -12,8 +12,7 @@
                 </div>
             @else
                 <div class="col-md-3 mb-3">
-
-                    <div class="card h-100">
+                    <div class="card h-100" data-aos="{{ Arr::random(['fade-up', 'fade-down', 'fade-right', 'fade-left']) }}">
                         <div class="image-container">
                             <a href="{{ $channel['url'] }}">
                                 <img src="{{ $channel['image'] }}" alt="{{ $channel['title'] }}">
@@ -34,9 +33,9 @@
                     <h3 class="pt-3">{{ $playlist['header'] }}</h3>
                 </div>
             @else
-                <div class="col-md-6 mb-3">
+                <div class="col-md-4 mb-3">
 
-                    <div class="card h-100">
+                    <div class="card h-100" data-aos="{{ Arr::random(['fade-up', 'fade-down', 'fade-right', 'fade-left']) }}">
                         <div class="video-container">
                             <div class="text-center loading">Loading <i class="fas fa-circle-notch fa-spin text-black-50"></i></div>
                             <iframe frameborder="0" class="lazyload" allowfullscreen="allowfullscreen" data-src="{{ $playlist['src'] }}"></iframe>
