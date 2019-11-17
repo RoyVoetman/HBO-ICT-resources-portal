@@ -7,7 +7,7 @@
             </blockquote>
         </div>
         <div class="card-footer">
-            <a href="{{ $url }}"{{ isset($newTab) ? ' target="_blank"' : null }} class="card-link">Get discount</a>
+            <a href="{{ $url }}"{{ isset($newTab) ? ' target="_blank"' : null }} class="card-link">Go to website</a>
         </div>
     </div>
 </div>
