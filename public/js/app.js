@@ -37523,7 +37523,10 @@ __webpack_require__.r(__webpack_exports__);
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
- // window.Vue = require('vue');
+
+window.addEventListener('load', function () {
+  document.getElementById('loader').remove();
+}); // window.Vue = require('vue');
 
 /**
  * The following block of code may be used to automatically register your

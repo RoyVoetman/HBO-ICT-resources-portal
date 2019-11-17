@@ -8,6 +8,10 @@ require('./bootstrap');
 
 import 'lazysizes';
 
+window.addEventListener('load', function () {
+    document.getElementById('loader').remove();
+});
+
 // window.Vue = require('vue');
 
 /**
