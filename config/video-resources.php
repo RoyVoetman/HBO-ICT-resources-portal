@@ -14,6 +14,7 @@ return [
         ['url' => 'https://www.youtube.com/channel/UC7c3Kb6jYCRj4JOHHZTxKsQ'], // GitHub
         ['url' => 'https://www.youtube.com/channel/UC3s0BtrBJpwNDaflRSoiieQ'], // Hak5
         ['url' => 'https://www.youtube.com/channel/UCRztjeLfNzi2nw2nffMQtGA'], // tweakers
+        ['url' => 'https://www.youtube.com/user/Techquickie']                  // Techquickie
     
         ['header' => 'Computer Systems'],
         ['url' => 'https://www.youtube.com/user/DrZAP42/feed'],                //  Robert Paz
