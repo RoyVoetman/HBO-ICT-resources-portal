@@ -15,6 +15,7 @@ return [
         ['url' => 'https://www.youtube.com/channel/UC3s0BtrBJpwNDaflRSoiieQ'], // Hak5
         ['url' => 'https://www.youtube.com/channel/UCRztjeLfNzi2nw2nffMQtGA'], // tweakers
         ['url' => 'https://www.youtube.com/user/Techquickie'],                 // Techquickie
+        ['url' => 'https://www.youtube.com/user/lyndapodcast'],                //  LinkedIn Learning
     
         ['header' => 'Computer Systems'],
         ['url' => 'https://www.youtube.com/user/DrZAP42/feed'],                //  Robert Paz
