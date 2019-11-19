@@ -23,6 +23,7 @@ return [
         ['url' => 'https://www.youtube.com/channel/UC6Om9kAkl32dWlDSNlDS9Iw'], // DEFCONConference
         ['url' => 'https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w'], // LiveOverflow
         ['url' => 'https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA'], // Computerphile
+        ['url' => 'https://www.youtube.com/channel/UCD4EOyXKjfDUhCI6jlOZZYQ']  // Eli the Computer Guy
     
         ['header' => 'Web Development'],
         ['url' => 'https://www.youtube.com/channel/UC3s5g0_lyZYOu8Jjo27udAQ'], // Laracasts
